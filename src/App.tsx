@@ -73,7 +73,10 @@ function Footer() {
         <Link className="footer-brand" to="/">
           <Logo />
         </Link>
-        <p>Safe power. Careful craft. Local service.</p>
+        <p className="footer-quip">
+          "Don't be a dummy, gettin' shocked ain't funny!"
+          <em>- a smart man</em>
+        </p>
       </div>
       <div className="footer-links">
         <a href={c.phoneHref}>{c.phoneDisplay}</a>

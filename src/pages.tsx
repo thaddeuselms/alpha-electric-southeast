@@ -147,6 +147,10 @@ export function Home() {
             Licensed &amp; insured
             <br />
             <strong>Local. Responsive. Built to last.</strong>
+            <small className="safety-quip">
+              "Don't be a dummy, gettin' shocked ain't funny!"
+              <em>- a smart man</em>
+            </small>
           </p>
         </aside>
       </section>
