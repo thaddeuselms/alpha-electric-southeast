@@ -100,7 +100,7 @@ select {
   font-weight: 700;
 }
 .navwrap {
-  min-height: 112px;
+  height: 86px;
   padding: 0 5vw;
   display: flex;
   align-items: center;
@@ -112,11 +112,10 @@ select {
 }
 .logo {
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 3px;
-  width: max-content;
-  height: auto;
+  align-items: center;
+  gap: 12px;
+  width: auto;
+  height: 78px;
 }
 .logo-image {
   width: 78px;
@@ -125,7 +124,7 @@ select {
 }
 .logo-name {
   max-width: none;
-  font-size: 0.82rem;
+  font-size: 1.08rem;
   font-weight: 800;
   line-height: 1.05;
   text-transform: uppercase;
@@ -805,7 +804,7 @@ footer {
   align-items: end;
 }
 footer .logo {
-  height: auto;
+  height: 78px;
   color: var(--ink);
 }
 footer .logo-image {
@@ -872,7 +871,7 @@ footer > small {
     justify-content: flex-end;
   }
   .navwrap {
-    min-height: 86px;
+    height: 76px;
   }
   .navwrap nav {
     display: none;
@@ -895,8 +894,8 @@ footer > small {
     display: block;
   }
   .logo {
-    gap: 2px;
-    height: auto;
+    gap: 8px;
+    height: 54px;
   }
   .logo-image {
     width: 54px;
@@ -904,7 +903,7 @@ footer > small {
   }
   .logo-name {
     max-width: none;
-    font-size: clamp(0.6rem, 2.2vw, 0.7rem);
+    font-size: clamp(0.61rem, 2.3vw, 0.72rem);
     white-space: nowrap;
   }
   .hero {
