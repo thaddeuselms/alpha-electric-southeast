@@ -100,7 +100,7 @@ select {
   font-weight: 700;
 }
 .navwrap {
-  height: 86px;
+  min-height: 112px;
   padding: 0 5vw;
   display: flex;
   align-items: center;
@@ -112,10 +112,11 @@ select {
 }
 .logo {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  width: auto;
-  height: 78px;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 3px;
+  width: max-content;
+  height: auto;
 }
 .logo-image {
   width: 78px;
@@ -124,7 +125,7 @@ select {
 }
 .logo-name {
   max-width: none;
-  font-size: 1.08rem;
+  font-size: 0.82rem;
   font-weight: 800;
   line-height: 1.05;
   text-transform: uppercase;
@@ -804,7 +805,7 @@ footer {
   align-items: end;
 }
 footer .logo {
-  height: 78px;
+  height: auto;
   color: var(--ink);
 }
 footer .logo-image {
@@ -871,7 +872,7 @@ footer > small {
     justify-content: flex-end;
   }
   .navwrap {
-    height: 76px;
+    min-height: 86px;
   }
   .navwrap nav {
     display: none;
@@ -894,8 +895,8 @@ footer > small {
     display: block;
   }
   .logo {
-    gap: 8px;
-    height: 54px;
+    gap: 2px;
+    height: auto;
   }
   .logo-image {
     width: 54px;
@@ -903,7 +904,7 @@ footer > small {
   }
   .logo-name {
     max-width: none;
-    font-size: clamp(0.61rem, 2.3vw, 0.72rem);
+    font-size: clamp(0.6rem, 2.2vw, 0.7rem);
     white-space: nowrap;
   }
   .hero {
