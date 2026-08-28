@@ -5,7 +5,7 @@ export const siteConfig = {
   serviceArea: "New Hanover, Pender, and Brunswick County",
   facebookUrl:
     import.meta.env.VITE_FACEBOOK_URL ||
-    "https://www.facebook.com/groups/951645489524779/media",
+    "https://www.facebook.com/groups/951645489524779/",
   mapsUrl:
     import.meta.env.VITE_GOOGLE_MAPS_URL ||
     "https://www.google.com/maps/search/?api=1&query=Alpha+Electric+Southeast+Wilmington+NC",
