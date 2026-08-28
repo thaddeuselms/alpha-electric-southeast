@@ -8,50 +8,50 @@ const projects = [
     image: "/images/facebook-work/pool-landscape-lighting.jpeg",
     type: "Exterior lighting",
     title: "Pool terrace illumination",
-    text: "Linear edge lights, illuminated steps, and path fixtures are visible around the pool terrace and planted areas.",
-    alt: "Pool terrace at night with illuminated steps, wall edges, paths, and planting beds",
+    text: "Here I’m showing how we use low-voltage fixtures to pick up the pool edge, steps, and planting beds without overpowering the space.",
+    alt: "Pool terrace at night with low-voltage lighting along the pool edge, steps, paths, and planting beds",
   },
   {
     image: "/images/facebook-work/residential-exterior-lighting.jpeg",
     type: "Exterior lighting",
     title: "Modern home exterior",
-    text: "A multilevel home at dusk with illuminated rooms, balcony areas, and exterior soffit lighting.",
-    alt: "Multilevel modern home at dusk with illuminated rooms, balconies, and exterior soffits",
+    text: "This dusk view shows the finished exterior lighting working across the levels of the home, including the entry, balconies, and soffits.",
+    alt: "Multilevel modern home at dusk with illuminated entry, balconies, rooms, and exterior soffits",
   },
   {
     image: "/images/facebook-work/commercial-service-panels.jpeg",
-    type: "Exterior lighting",
-    title: "Gable and façade lighting",
-    text: "Warm fixtures visibly illuminate the garage, porch columns, roof gables, and dormer windows of this home.",
-    alt: "Home exterior at night with illuminated garage, porch columns, gables, and dormer windows",
+    type: "Commercial · Electrical service",
+    title: "Commercial service panels",
+    text: "This is the kind of distribution equipment we work around on a commercial job: panel sections, disconnects, and metal conduit organized for service access.",
+    alt: "Commercial electrical service room with distribution panels, disconnects, and metal conduit",
   },
   {
     image: "/images/facebook-work/wine-room-cabinet-lighting.jpeg",
     type: "Electrical distribution",
     title: "Equipment room distribution",
-    text: "Multiple electrical cabinets, disconnects, breaker sections, and metal conduit are visible in this equipment room.",
-    alt: "Electrical equipment room with distribution cabinets, breaker sections, disconnects, and metal conduit",
+    text: "In this interior, the linear fixtures are installed inside the wine-room cabinetry to put light where the shelves and bottles need it.",
+    alt: "Wine room with linear lighting installed inside custom cabinetry",
   },
   {
     image: "/images/facebook-work/wine-room-linear-lighting.jpeg",
     type: "Interior accent lighting",
     title: "Wine-room linear lighting",
-    text: "Continuous light lines cross the ceiling and wall while vertical strips illuminate the wine cabinetry.",
-    alt: "Wine room with continuous linear lights across the ceiling and wall and vertical cabinet lighting",
+    text: "The continuous light lines in this wine room give the ceiling and wall a clean glow while the vertical strips bring the cabinetry forward.",
+    alt: "Wine room with continuous linear ceiling lighting, wall lighting, and illuminated cabinetry",
   },
   {
-    image: "/images/facebook-work/staircase-step-lighting.jpeg",
-    type: "Cabinet accent lighting",
-    title: "Illuminated wine cabinetry",
-    text: "Vertical light strips and shelf lighting are visible throughout the custom wood wine storage units.",
-    alt: "Empty custom wood wine storage cabinets with vertical and shelf-integrated light strips",
+    image: "/images/facebook-work/bathroom-chandelier-lighting.jpeg",
+    type: "Residential · Bathroom lighting",
+    title: "Bathroom chandelier installation",
+    text: "This finished bathroom pairs recessed ceiling lights with a decorative chandelier over the tub; the fixture is centered as the room’s focal point.",
+    alt: "Finished bathroom with a decorative chandelier over the freestanding tub and recessed ceiling lights",
   },
   {
     image: "/images/facebook-work/kitchen-linear-lighting.jpeg",
     type: "Stair lighting",
     title: "Staircase perimeter lighting",
-    text: "Continuous concealed lighting follows both sides of the stair flight and illuminates the wood treads.",
-    alt: "Wood staircase with continuous concealed lighting running along both side walls",
+    text: "Here the concealed lighting follows the stair edges and washes the wood treads, giving the homeowner a safer path with a finished look.",
+    alt: "Wood staircase with concealed lighting along both side walls and illuminated treads",
   },
 ];
 const services = [
@@ -223,7 +223,7 @@ export function Applications() {
         <img
           className="page-hero-media"
           src="/images/facebook-work/wine-room-cabinet-lighting.jpeg"
-          alt="Electrical equipment room with distribution cabinets, breaker sections, disconnects, and metal conduit"
+          alt="Wine room with integrated cabinet lighting, glass doors, and illuminated shelves"
           width="1369"
           height="918"
           fetchPriority="high"
