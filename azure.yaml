@@ -1,0 +1,6 @@
+name: alpha-electric-southeast
+services:
+  web:
+    project: .
+    language: ts
+    host: staticwebapp
