@@ -821,8 +821,11 @@ footer p {
   margin-top: 1.5rem;
 }
 .footer-quip {
-  max-width: 240px;
+  width: max-content;
+  max-width: none;
+  font-size: clamp(0.82rem, 1.2vw, 0.98rem);
   line-height: 1.45;
+  white-space: nowrap;
 }
 .footer-links {
   display: flex;
